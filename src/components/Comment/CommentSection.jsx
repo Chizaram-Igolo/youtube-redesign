@@ -5,9 +5,10 @@ import { comments } from "../../data";
 export default function CommentSection() {
   return (
     <div>
-      {comments.map(({ name, date, text, likes }) => (
+      {comments.map(({ name, image, date, text, likes }) => (
         <CommentComponent
           name={name}
+          image={image}
           date={date}
           text={text}
           likes={likes}

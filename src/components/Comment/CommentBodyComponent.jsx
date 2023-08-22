@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CommentBody({ text }) {
+export default function CommentBodyComponent({ text }) {
   return (
     <div>
       <p>{text}</p>
