@@ -1,11 +1,11 @@
-import FeedComponent from "./Feed/FeedComponent";
-import SidebarComponent from "./Sidebar/SidebarComponent";
+import CommentFeed from "./CommentFeed";
+import SidebarComponent from "./SideBar";
 
 export default function HomeComponent() {
   return (
     <div className="grid grid-cols-12">
       <SidebarComponent />
-      <FeedComponent />
+      <CommentFeed />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-function CommentHeaderComponent({ name, image }) {
+export default function CommentAvatar({ image }) {
   return (
     <div>
       <img
@@ -6,9 +6,6 @@ function CommentHeaderComponent({ name, image }) {
         src={image}
         alt="Rounded avatar"
       />
-      <h2>{name}</h2>
     </div>
   );
 }
-
-export default CommentHeaderComponent;

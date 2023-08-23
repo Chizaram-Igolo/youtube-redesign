@@ -1,8 +1,6 @@
-import React from "react";
-
 export default function CommentBodyComponent({ text }) {
   return (
-    <div>
+    <div className="w-[80%] md:w-[60%]">
       <p>{text}</p>
     </div>
   );

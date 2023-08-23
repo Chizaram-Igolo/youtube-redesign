@@ -2,11 +2,6 @@ li {
   list-style-type: none;
 }
 
-.sidebar-link {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

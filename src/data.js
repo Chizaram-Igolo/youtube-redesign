@@ -14,3 +14,26 @@ export const comments = [
     likes: 0,
   },
 ];
+
+export const subscriptions = [
+  {
+    name: "Disiz",
+    image: "../public/profile-picture-2.jpg",
+    subscriptionCount: 2,
+  },
+  {
+    name: "MisterV",
+    image: "../public/profile-picture-5.jpg",
+    subscriptionCount: 1,
+  },
+  {
+    name: "Ukudood",
+    image: "../public/profile-picture-2.jpg",
+    subscriptionCount: 0,
+  },
+  {
+    name: "Smosh",
+    image: "../public/profile-picture-5.jpg",
+    subscriptionCount: 0,
+  },
+];
