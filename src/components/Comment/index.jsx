@@ -2,15 +2,6 @@ import CommentAvatar from "./CommentAvatar";
 import CommentBody from "./CommentBody";
 import CommentHeader from "./CommentHeader.jsx";
 
-// export default function CommentComponent({ name, text, image }) {
-//   return (
-//     <div>
-//       <CommentHeaderComponent name={name} image={image} />
-//       <CommentBody text={text} />
-//     </div>
-//   );
-// }
-
 export default function Comment({ name, image, text, date }) {
   return (
     <>

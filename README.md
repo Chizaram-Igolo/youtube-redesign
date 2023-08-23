@@ -4,9 +4,13 @@ YouTube Redesign Clone based on Aurélien Salomon UX's design at https://dribbbl
 
 **Candidate:** Chizaram Igolo
 
-# Cloned Website
+# Screenshot (Original Website)
 
 ![SidebarLinkComponent](./public/youtube_redesign.png)
+
+# Screenshot (#WIP)
+
+![SidebarLinkComponent](./public/youtube_redesign_wip.png)
 
 ## Dissecting Activity
 
@@ -85,3 +89,11 @@ export const comments = [
 
 - React
 - Tailwind CSS
+
+# Colors
+
+- Sidebar Background Color - #272C2E
+- Sidebar Links - #6A757D
+- Comment Heading - #1A70B2
+- Comment Date Text - #1A70B2
+- Comment Body Text - #585858
